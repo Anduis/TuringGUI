@@ -1,73 +1,75 @@
-**Turing Machine GUI**
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](./README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](./README.en.md)
+**Interfaz Gráfica para Máquinas de Turing**
 
 ---
 
-**Some Basics**
+**Algunos Conceptos Básicos**
 
-**Formal Languages:**
-Formal languages are essential in computer science and mathematics for describing patterns and structures. They provide a precise way to define sets of strings over a given alphabet. These languages are used in various areas of computer science, including compiler design, artificial intelligence, and cryptography.
+**Lenguajes Formales:**
+Los lenguajes formales son esenciales en ciencias de la computación y matemáticas para describir patrones y estructuras. Proporcionan una manera precisa de definir conjuntos de cadenas sobre un alfabeto dado. Estos lenguajes se utilizan en diversas áreas de la informática, incluido el diseño de compiladores, la inteligencia artificial y la criptografía.
 
-**Automata:**
-Automata are abstract mathematical models used to describe computation. They consist of states, transitions, and input symbols. Finite automata, pushdown automata, and Turing machines are examples of automata used to recognize different classes of languages.
+**Autómatas:**
+Los autómatas son modelos matemáticos abstractos utilizados para describir la computación. Consisten en estados, transiciones y símbolos de entrada. Los autómatas finitos, los autómatas de empuje y las máquinas de Turing son ejemplos de autómatas utilizados para reconocer diferentes clases de lenguajes.
 
-**Turing Machines:**
-Turing machines are a fundamental concept in computability theory and the theory of computation. They are theoretical devices that manipulate symbols on an infinite tape according to a set of rules. Turing machines can simulate any algorithmic process and are used to understand the limits of computability.
-
----
-
-**Description:**
-
-This application is a Turing Machine Simulator, allowing users to visually design Turing Machines. It provides an intuitive graphical interface for users to create state and transitions of Turing Machines.
-
-**Why a Tool for Formal Languages and Automata is Useful:**
-Understanding formal languages and automata theory is crucial for students and professionals in computer science and related fields. However, manually designing automata can be time-consuming.
-
-The tool I developed provides a user-friendly interface for designing and analyzing automata. It allows users to create Turing machines effortlessly.
-
-By simplifying the process of working with automata and formal languages, this tool enables users to focus more on understanding the underlying concepts and exploring their applications in various domains of computer science. Whether you're a student learning about automata theory for the first time or a researcher investigating new computational models, this tool provides a valuable resource for experimentation and learning.
+**Máquinas de Turing:**
+Las máquinas de Turing son un concepto fundamental en la teoría de la computabilidad y la teoría de la computación. Son dispositivos teóricos que manipulan símbolos en una cinta infinita según un conjunto de reglas. Las máquinas de Turing pueden simular cualquier proceso algorítmico y se utilizan para comprender los límites de la computabilidad.
 
 ---
 
-**Features:**
+**Descripción:**
 
-1. **Graphical Interface:** The application features a graphical interface where users can visually design Turing Machines. The main window consists of a drawing panel where states and transitions are displayed.
+Esta aplicación es un Simulador de Máquinas de Turing, que permite a los usuarios diseñar visualmente Máquinas de Turing. Proporciona una interfaz gráfica intuitiva para que los usuarios creen estados y transiciones de Máquinas de Turing.
 
-2. **State Management:** Users can add, delete, and move states on the drawing panel. States are represented by circular nodes, and users can interact with them to define their properties.
+**Por qué es Útil una Herramienta para Lenguajes Formales y Autómatas:**
+Entender los lenguajes formales y la teoría de los autómatas es crucial para estudiantes y profesionales en ciencias de la computación y campos relacionados. Sin embargo, diseñar autómatas manualmente puede ser consumir mucho tiempo.
 
-3. **Transition Creation:** Users can create transitions between states by specifying the read and write symbols, as well as the direction of movement. Transitions are represented by arrows between states.
+La herramienta que desarrollé proporciona una interfaz fácil de usar para diseñar y analizar autómatas. Permite a los usuarios crear máquinas de Turing sin esfuerzo.
 
-4. **Save:** Users can save their Turing Machine designs to a file (where all the states and transitions are described) for later use.
-
----
-
-**How to Use:**
-
-![toolbar](./ejemplos/barra.png)
-
-This is the appearance of the toolbar.
-
-**The available actions are listed in the order they appear on display.**
-
-1. **Move:** Click the "Move Circle" button to move any existing state in the drawing panel. States are represented by circular nodes.
-
-1. **Adding States:** Click the "Add Circle" button to add a new state to the drawing panel. States are represented by circular nodes.
-
-1. **Creating Transitions:** Click the "Arrow" button to create transitions between states. Specify the read and write symbols, as well as the direction of movement.
-
-1. **Delete States:** Use the "Eraser" button to delete states or transitions.
-
-1. **Set/Edit Transition Values:** Click the "Info" button, then click the state wich transitions are needed to be changed to enter into edition mode.
-
-1. **Saving:** Use the "Save" and "Load" buttons to save your Turing Machine design to a file or load a previously saved design.
+Al simplificar el proceso de trabajo con autómatas y lenguajes formales, esta herramienta permite a los usuarios centrarse más en comprender los conceptos subyacentes y explorar sus aplicaciones en diversos campos de la informática. Ya sea que seas un estudiante que aprende teoría de autómatas por primera vez o un investigador que investiga nuevos modelos computacionales, esta herramienta proporciona un recurso valioso para experimentar y aprender.
 
 ---
 
-**Examples: (Hand Written/Softaware made / output)**
+**Características:**
+
+1. **Interfaz Gráfica:** La aplicación cuenta con una interfaz gráfica donde los usuarios pueden diseñar visualmente Máquinas de Turing. La ventana principal consta de un panel de dibujo donde se muestran los estados y las transiciones.
+
+2. **Gestión de Estados:** Los usuarios pueden agregar, eliminar y mover estados en el panel de dibujo. Los estados están representados por nodos circulares, y los usuarios pueden interactuar con ellos para definir sus propiedades.
+
+3. **Creación de Transiciones:** Los usuarios pueden crear transiciones entre estados especificando los símbolos de lectura y escritura, así como la dirección del movimiento. Las transiciones están representadas por flechas entre estados.
+
+4. **Guardar:** Los usuarios pueden guardar sus diseños de Máquinas de Turing en un archivo (donde se describen todos los estados y transiciones) para su uso posterior.
+
+---
+
+**Cómo Usar:**
+
+![barra de herramientas](./ejemplos/barra.png)
+
+Esta es la apariencia de la barra de herramientas.
+
+**Las acciones disponibles se enumeran en el orden en que aparecen en la pantalla.**
+
+1. **Mover:** Haz clic en el botón "Círculo de Mover" para mover cualquier estado existente en el panel de dibujo. Los estados están representados por nodos circulares.
+
+2. **Agregar Estados:** Haz clic en el botón "Círculo de Agregar" para agregar un nuevo estado al panel de dibujo. Los estados están representados por nodos circulares.
+
+3. **Crear Transiciones:** Haz clic en el botón "Flecha" para crear transiciones entre estados. Especifica los símbolos de lectura y escritura, así como la dirección del movimiento.
+
+4. **Eliminar Estados:** Usa el botón "Borrador" para eliminar estados o transiciones.
+
+5. **Establecer/Editar Valores de Transición:** Haz clic en el botón "Información", luego haz clic en el estado cuyas transiciones necesitan ser cambiadas para entrar en modo de edición.
+
+6. **Guardar:** Usa los botones "Guardar" y "Cargar" para guardar el diseño de tu Máquina de Turing en un archivo o cargar un diseño previamente guardado.
+
+---
+
+**Ejemplos: (Hechos a Mano/Hechos por Software/Salida)**
 
 <table>
   <tr>
-    <td><img src="./ejemplos/a^nb^n/a^nb^nH.jpeg" alt="First_Hand"></td>
-    <td><img src="./ejemplos/a^nb^n/a^nb^nP.png" alt="First_Program"></td>
+    <td><img src="./ejemplos/a^nb^n/a^nb^nH.jpeg" alt="Primer_Hecho"></td>
+    <td><img src="./ejemplos/a^nb^n/a^nb^nP.png" alt="Primer_Programa"></td>
     <td><pre><code></code>0,#,1,i
 1,b,2,#
 2,#,3,i
@@ -88,8 +90,8 @@ This is the appearance of the toolbar.
 3,a,5,i</pre></td>
   </tr>
   <tr>
-    <td><img src="./ejemplos/aaabbb/aaabbbH.jpeg" alt="Second_Hand"></td>
-    <td><img src="./ejemplos/aaabbb/aaabbbP.png" alt="Second_Program"></td>
+    <td><img src="./ejemplos/aaabbb/aaabbbH.jpeg" alt="Segundo_Hecho"></td>
+    <td><img src="./ejemplos/aaabbb/aaabbbP.png" alt="Segundo_Programa"></td>
     <td><pre><code></code>0,#,1,i
 1,b,2,#
 1,#,h,#
@@ -103,16 +105,6 @@ This is the appearance of the toolbar.
 </pre></td>
   </tr>
   <tr>
-    <td><img src="./ejemplos/Borradora/BorradoraH.jpeg" alt="Third_Hand"></td>
-    <td><img src="./ejemplos/Borradora/BorradoraP.jpeg" alt="Third_Program"></td>
-    <td><pre><code></code>0,#,1,i
-1,a,2,#
-1,b,2,#
-1,#,h,#
-3,#,h,#
-3,b,2,#
-3,a,2,#
-2,#,3,i
-</pre></td>
-  </tr>
-</table>
+    <td><img src="./ejemplos/Borradora/BorradoraH.jpeg" alt="Tercer_Hecho"></td>
+    <td><img src="./ejemplos/Borradora/BorradoraP.jpeg" alt="Tercer_Programa"></td>
+    <td><pre><code

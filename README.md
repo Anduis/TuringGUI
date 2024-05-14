@@ -1,5 +1,6 @@
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](./README.md)
 [![en](https://img.shields.io/badge/lang-en-red.svg)](./README.en.md)
+
 **Interfaz Gráfica para Máquinas de Turing**
 
 ---

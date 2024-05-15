@@ -8,7 +8,7 @@
 **Algunos Conceptos Básicos**
 
 **Lenguajes Formales:**
-Los lenguajes formales son esenciales en ciencias de la computación y matemáticas para describir patrones y estructuras. Proporcionan una manera precisa de definir conjuntos de cadenas sobre un alfabeto dado. Estos lenguajes se utilizan en diversas áreas de la informática, incluido el diseño de compiladores, la inteligencia artificial y la criptografía.
+Los lenguajes formales son esenciales en ciencias de la computación y matemáticas para describir patrones y estructuras. Proporcionan una manera precisa de definir conjuntos de cadenas sobre un alfabeto dado. Estos lenguajes se utilizan en diversas áreas de la ciencias computacionales, incluido el diseño de compiladores, la inteligencia artificial y la criptografía.
 
 **Autómatas:**
 Los autómatas son modelos matemáticos abstractos utilizados para describir la computación. Consisten en estados, transiciones y símbolos de entrada. Los autómatas finitos, los autómatas de empuje y las máquinas de Turing son ejemplos de autómatas utilizados para reconocer diferentes clases de lenguajes.
@@ -27,7 +27,7 @@ Entender los lenguajes formales y la teoría de los autómatas es crucial para e
 
 La herramienta que desarrollé proporciona una interfaz fácil de usar para diseñar y analizar autómatas. Permite a los usuarios crear máquinas de Turing sin esfuerzo.
 
-Al simplificar el proceso de trabajo con autómatas y lenguajes formales, esta herramienta permite a los usuarios centrarse más en comprender los conceptos subyacentes y explorar sus aplicaciones en diversos campos de la informática. Ya sea que seas un estudiante que aprende teoría de autómatas por primera vez o un investigador que investiga nuevos modelos computacionales, esta herramienta proporciona un recurso valioso para experimentar y aprender.
+Al simplificar el proceso de trabajo con autómatas y lenguajes formales, esta herramienta permite a los usuarios centrarse más en comprender los conceptos subyacentes y explorar sus aplicaciones en diversos campos de la ciencias computacionales. Ya sea que seas un estudiante que aprende teoría de autómatas por primera vez o un investigador que investiga nuevos modelos computacionales, esta herramienta proporciona un recurso valioso para experimentar y aprender.
 
 ---
 
@@ -69,8 +69,8 @@ Esta es la apariencia de la barra de herramientas.
 
 <table>
   <tr>
-    <td><img src="./ejemplos/a^nb^n/a^nb^nH.jpeg" alt="Primer_Hecho"></td>
-    <td><img src="./ejemplos/a^nb^n/a^nb^nP.png" alt="Primer_Programa"></td>
+    <td><img src="./ejemplos/a^nb^n/a^nb^nH.jpeg" alt="First_Hand"></td>
+    <td><img src="./ejemplos/a^nb^n/a^nb^nP.png" alt="First_Program"></td>
     <td><pre><code></code>0,#,1,i
 1,b,2,#
 2,#,3,i
@@ -91,8 +91,8 @@ Esta es la apariencia de la barra de herramientas.
 3,a,5,i</pre></td>
   </tr>
   <tr>
-    <td><img src="./ejemplos/aaabbb/aaabbbH.jpeg" alt="Segundo_Hecho"></td>
-    <td><img src="./ejemplos/aaabbb/aaabbbP.png" alt="Segundo_Programa"></td>
+    <td><img src="./ejemplos/aaabbb/aaabbbH.jpeg" alt="Second_Hand"></td>
+    <td><img src="./ejemplos/aaabbb/aaabbbP.png" alt="Second_Program"></td>
     <td><pre><code></code>0,#,1,i
 1,b,2,#
 1,#,h,#
@@ -106,6 +106,16 @@ Esta es la apariencia de la barra de herramientas.
 </pre></td>
   </tr>
   <tr>
-    <td><img src="./ejemplos/Borradora/BorradoraH.jpeg" alt="Tercer_Hecho"></td>
-    <td><img src="./ejemplos/Borradora/BorradoraP.jpeg" alt="Tercer_Programa"></td>
-    <td><pre><code
+    <td><img src="./ejemplos/Borradora/BorradoraH.jpeg" alt="Third_Hand"></td>
+    <td><img src="./ejemplos/Borradora/BorradoraP.jpeg" alt="Third_Program"></td>
+    <td><pre><code></code>0,#,1,i
+1,a,2,#
+1,b,2,#
+1,#,h,#
+3,#,h,#
+3,b,2,#
+3,a,2,#
+2,#,3,i
+</pre></td>
+  </tr>
+</table>
